@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: C:\Users\Usuario\IdeaProjects\PfmNttdataLuisAcuña\ms-config-repository
+
+#spring:
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/verdugox/ms-config-repository.git
+#          default-label: main
