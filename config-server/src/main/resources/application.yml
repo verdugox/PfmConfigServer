@@ -3,14 +3,14 @@ server:
 
 spring:
   application:
-    name: config-server
+    name: configserver
   cloud:
     config:
       enabled: true
       server:
         git:
-          uri: C:\Users\Usuario\IdeaProjects\PfmNttdataLuisAcuña\ms-config-repository
-
+          uri: https://github.com/verdugox/ms-config-repository.git
+          clone-on-start: true
 #spring:
 #  cloud:
 #    config:
@@ -18,3 +18,4 @@ spring:
 #        git:
 #          uri: https://github.com/verdugox/ms-config-repository.git
 #          default-label: main
+
